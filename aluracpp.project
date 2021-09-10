@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="aluracpp" Version="10.0.0" InternalType="">
+  <VirtualDirectory Name="cpppt1">
+    <VirtualDirectory Name="Aluracpp">
+      <VirtualDirectory Name="Forca">
+        <VirtualDirectory Name="Forca">
+          <File Name="cpppt1/Aluracpp/Forca/Forca/chuta.cpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/nao_acertou.cpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/salva_arquivo.hpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/chuta.hpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/le_arquivo.hpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/sorteia_palavra.hpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/adiciona_palavra.hpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/adiciona_palavra.cpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/letra_existe.hpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/imprime_erros.cpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/salva_arquivo.cpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/le_arquivo.cpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/letra_existe.cpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/imprime_cabecalho.hpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/sorteia_palavra.cpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/forca.cpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/imprime_palavra.cpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/imprime_palavra.hpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/nao_acertou.hpp"/>
+          <File Name="cpppt1/Aluracpp/Forca/Forca/imprime_erros.hpp"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./Debug" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Workspace Settings&gt;" DbgSetName="&lt;Use Global Settings&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
